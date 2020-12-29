@@ -3,5 +3,7 @@
 ## Session info
 
 Date: 13 January 2021
+
 Time: 3.00 - 6.00 pm
+
 Location: Google Meet (link will be updated closer to the event date)
