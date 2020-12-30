@@ -1,3 +1,9 @@
+---
+title: 0. Prerequisites
+has_children: false
+nav_order: 1
+---
+
 # Prerequisites
 
 This course is facilitated for people with little/no knowledge in using the cloud and Linux in general. However, for the sake of time, there is a few things we would like to get over with before we start the workshop.
