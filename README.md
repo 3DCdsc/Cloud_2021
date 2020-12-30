@@ -1,7 +1,7 @@
 ---
 title: Welcome to the 2021 3DC Cloud Workshop
 has_children: false
-nav_order: 0
+nav_order: 2
 ---
 
 # Welcome to the 2021 3DC Cloud Workshop

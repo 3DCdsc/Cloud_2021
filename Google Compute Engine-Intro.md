@@ -1,3 +1,9 @@
+---
+title: 2. Google Compute Engine - Introduction
+has_children: false
+nav_order: 3
+---
+
 # Google Compute Engine - Introduction
 
 ## What is Google Cloud Compute Engine?
