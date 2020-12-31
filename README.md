@@ -10,10 +10,14 @@ Location: Google Meet (link will be updated closer to the event date)
 
 ### **Lesson Materials**
 1.VirtualBox
+
 https://www.virtualbox.org/wiki/Downloads
 
 2.Windows Subsystem for Linux (Optional, Windows User only) 
+
 https://www.microsoft.com/en-sg/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab
+
+3.
 
 ### **Instructors** 
 
@@ -45,5 +49,97 @@ Linux's CLI is called _Terminal_ while Window's CLI is called _Command Prompt (C
 
 
 **3. Linux CLI Basics**
+- **NAVIGATING THROUGH CLI**
+
+```
+pwd
+```
+
+> print working directory
+
+```
+cd
+```
+
+> change directory 
+
+Often used with ls to show where to go
+
+1.	```cd ~``` 
+is the shortcut to home dir
+2.	```cd ..```
+to go back 1 level
 
 
+```
+ls 
+```
+
+> list
+
+List all available directories/files
+
+1.	```ls -l```
+the argument ***l*** means long, list the long way shows the info of the files/dir including date of create, created by who
+
+2.	```ls {dir}``` 
+to list a particular directory without changing your current working directory
+
+
+```mkdir ```
+> make new directory
+
+
+```
+rm
+```
+> remove
+
+To delete something, if deleting a dir need -rf
+
+1.	```rm -rf {directory}```
+
+2.  ```rm *```
+(removing all)
+
+3.  ```rm *.txt```
+removing all txt file
+
+4.	```rm {filenames}*```
+removing all files of the same name
+
+```
+cp
+```
+copy files
+```-cp {file name} {directory}```
+
+
+```
+mv
+```
+> move
+
+1.	Use to moving files to another dir 
+```-mv {file name} {directory}```
+
+
+2.	Use to renaming 
+```{current file/dir name} {desired new name}```
+
+
+```
+clear
+```
+
+> clear the cluttered screen
+
+
+- **Creating a file method 1 : touch**
+
+```
+touch
+```
+> creating multiple files of any type
+
+1.	```touch file1.txt file2.py file3.jar file4.css file5.html```
