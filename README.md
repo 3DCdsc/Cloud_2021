@@ -22,7 +22,7 @@ https://www.microsoft.com/en-sg/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:o
 - Tan Li Ling
 
 ### Lesson Outline
-**1.What is Linux?**
+**1. What is Linux?**
 
 ![What is Linux?](https://github.com/3DCdsc/Cloud_2021/blob/master/linux%20logo.png)
 
@@ -33,7 +33,7 @@ SpaceX's Falcon 9's and the Dragon 2's avionics use a customized version of Linu
 
 
 
-**2.What is Command Line Interface (CLI)?**
+**2. What is Command Line Interface (CLI)?**
 
 ![](https://github.com/3DCdsc/Cloud_2021/blob/master/terminal%20vs%20cmd.png)
 CLI is a command line program that accepts text input to execute operating system functions.
@@ -44,6 +44,6 @@ However, CLI is still used by software developers and system administrators to c
 Linux's CLI is called _Terminal_ while Window's CLI is called _Command Prompt (CMD)_
 
 
-**3.Linux CLI Basics**
+**3. Linux CLI Basics**
 
 
