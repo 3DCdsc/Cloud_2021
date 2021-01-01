@@ -12,7 +12,7 @@ This course is facilitated for people with little/no knowledge in using the clou
 
 You will need this to access the Google Cloud Platform console to create your VMs.
 
-**Steps:** You know how to do this :disappointed_relieved:
+**Steps:** You know how to do this 😥
 
 ### 2. Sign up for Google Cloud Platform
 
