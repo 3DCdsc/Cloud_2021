@@ -1,5 +1,5 @@
 ---
-title: 0. Prerequisites
+title: Prerequisites
 has_children: false
 nav_order: 1
 ---

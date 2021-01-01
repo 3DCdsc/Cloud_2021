@@ -1,8 +1,10 @@
 ---
-title: 1. Linux
+title: Linux
 has_children: false
 nav_order: 1
 ---
+
+# Linux
 
 ![What is Linux?](images/linux%20logo.png)
 
