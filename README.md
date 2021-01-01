@@ -17,7 +17,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 https://www.microsoft.com/en-sg/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab
 
-3.
+3. 
 
 ### **Instructors** 
 
@@ -100,12 +100,15 @@ To delete something, if deleting a dir need -rf
 1.	```rm -rf {directory}```
 
 2.  ```rm *```
-(removing all)
+
+removing all
 
 3.  ```rm *.txt```
+
 removing all txt file
 
 4.	```rm {filenames}*```
+
 removing all files of the same name
 
 ```
