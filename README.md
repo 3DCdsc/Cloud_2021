@@ -100,15 +100,12 @@ To delete something, if deleting a dir need -rf
 1.	```rm -rf {directory}```
 
 2.  ```rm *```
-
 removing all
 
 3.  ```rm *.txt```
-
 removing all txt file
 
 4.	```rm {filenames}*```
-
 removing all files of the same name
 
 ```
@@ -138,11 +135,40 @@ clear
 > clear the cluttered screen
 
 
-- **Creating a file method 1 : touch**
+- **WHAT IS SUDO? **
+
+```sudo {any command}
+
+> super user do
+
+To gain highest privilege access
+SU privilege is not available by default bcoz it might be dangerous if u accidentally wreck the system with some commands.
+
+
+
+
+- **CREATING A FILE METHOD 1 : touch **
 
 ```
 touch
 ```
+
 > creating multiple files of any type
 
 1.	```touch file1.txt file2.py file3.jar file4.css file5.html```
+
+- **CREATING A FILE METHOD 2 : Creating a file with text editor, then save**
+
+> ***nano*** is the default text editor in Linux. 
+
+Step 1:
+```nano {name of your file}``` opens an empty nano named {name of your file}
+
+Step 2:
+_Write Out (Ctrl + O)_ 
+
+to save the file under any file extension such as .css, .html, .js or .py etc
+
+
+- **INSTALLING PACKAGES **
+
