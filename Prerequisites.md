@@ -41,3 +41,7 @@ You will need a ssh client to talk to your cloud server.
 
 - Linux and macOS come built in with one inside the terminal. You can connect to the machine using this command `ssh -i PATH_TO_PRIVATE_KEY USERNAME@EXTERNAL_IP`. Alternatively you can use a GUI manager such as [Termius](https://termius.com/).
 - For Windows, during the workshop I will cover how to use [PuTTY](https://www.putty.org/) to connect to your VM.
+
+#### 4.b. Linux (Optional but highly reccomended)
+
+You will need access to a local Linux terminal for the first part of the workshop. Since we will be covering using Linux on a VM, this is optional.

@@ -1,7 +1,7 @@
 ---
 title: 2. Google Compute Engine - Introduction
 has_children: false
-nav_order: 3
+nav_order: 0
 ---
 
 # Google Compute Engine - Introduction
