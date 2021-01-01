@@ -1,6 +1,7 @@
 ---
 title: Setup
-has_children: true
+parent: Google Compute Engine
+has_children: false
 nav_order: 1
 ---
 
