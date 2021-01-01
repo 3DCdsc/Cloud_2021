@@ -44,4 +44,11 @@ You will need a ssh client to talk to your cloud server.
 
 #### 4.b. Linux (Optional but highly reccomended)
 
-You will need access to a local Linux terminal for the first part of the workshop. Since we will be covering using Linux on a VM, this is optional.
+You will need access to a local Linux terminal for the first part of the workshop. Since we will be covering using Linux on a VM, you may choose to not install it locally and try the commands directly on the cloud.
+However, we reccomend installing a local version of Linux for ease of use (and speed, your personal computer is still much faster than VM we will be using).
+
+For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LTS running on WSL.
+
+- _Linux users_: `Ctrl + Alt + T` you already have access to a Linux terminal :stuck_out_tongue:
+- _Windows users_: I personally reccommend installing [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) (follow manual steps). Alternatively, if you want a desktop interface, you can use [Virtual Box](https://www.virtualbox.org/)
+- _macOS users_: Use [Parallels](https://www.parallels.com/blogs/linux-on-mac/) or [Virtual Box](https://www.virtualbox.org/). Alternatively you can try setting up QEMU.

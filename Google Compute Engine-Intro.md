@@ -1,7 +1,7 @@
 ---
-title: 2. Google Compute Engine - Introduction
-has_children: false
-nav_order: 0
+title: Google Compute Engine
+has_children: true
+nav_order: 2
 ---
 
 # Google Compute Engine - Introduction
@@ -20,5 +20,3 @@ This is useful for a couple of reasons:
 4. Backups - usually automated
 5. Security
 6. Stable - GCP has a guaranteed uptime of 99.95%
-
-Once you connect to your

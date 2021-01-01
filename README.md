@@ -8,30 +8,27 @@ nav_order: 2
 
 ## Session info
 
-Date: 13 January 2021
+> Date: 13 January 2021
+> Time: 3.00 - 6.00 pm
+> Location: Google Meet (link will be updated closer to the event date)
 
-Time: 3.00 - 6.00 pm
+> :information_source: The workshop we will be covering how to achieve the learning objectives on Windows. While most of the content is the same across all platforms, there are a few differences in tools and procedures for some aspects.
 
-Location: Google Meet (link will be updated closer to the event date)
+## Lesson Materials
 
-### **Lesson Materials**
+1. How to use the Linux terminal and basic commands
+2. Google Compute Engine and how to host Python web apps on GCE
+3. Google App Engine and auto deploying from Github
 
-1.VirtualBox
-
-https://www.virtualbox.org/wiki/Downloads
-
-2.Windows Subsystem for Linux (Optional, Windows User only)
-
-https://www.microsoft.com/en-sg/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab
-
-3.
-
-### **Instructors**
+### Instructors
 
 - Shoham Chakraborty
-
 - Tan Li Ling
 
-### Lesson Outline
+### Useful Acronyms
 
-**1. What is Linux?**
+| Name                  | Acroynm |
+| --------------------- | ------- |
+| Google Cloud Platform | GCP     |
+| Google Compute Engine | GCE     |
+| Google App Engine     | GAE     |
