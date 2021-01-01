@@ -31,7 +31,7 @@ Make sure that billing is enabled and you are good to go!
 
 ### 3. Create a public/private key
 
-This is used for securely connecting to your GCE instance.
+This is used for securely connecting to your GCE instance. Use PuTTYgen (comes bundled with PuTTY), [tutorial here](https://www.ssh.com/ssh/putty/windows/puttygen) (we will go through with this in the workshop, you will need a 2048 bit RSA key at the minimum).
 
 ### 4. Applications required
 

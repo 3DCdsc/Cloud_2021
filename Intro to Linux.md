@@ -1,10 +1,12 @@
 ---
 title: Linux
 has_children: false
-nav_order: 1
+nav_order: 2
 ---
 
 # Linux
+
+## What is Linux?
 
 ![What is Linux?](images/linux%20logo.png)
 
@@ -13,7 +15,7 @@ Linux is a platform of choice to run desktops, servers, and embedded systems acr
 **_Fun Fact:_**
 SpaceX's Falcon 9's and the Dragon 2's avionics use a customized version of Linux!
 
-**2. What is Command Line Interface (CLI)?**
+## 2. What is Command Line Interface (CLI)?
 
 ![](images/terminal%20vs%20cmd.png)
 CLI is a command line program that accepts text input to execute operating system functions.
@@ -23,9 +25,9 @@ Today, with graphical user interfaces (GUI), most users never use command-line i
 However, CLI is still used by software developers and system administrators to configure computers, install software, and access features that are not available in the graphical interface.
 Linux's CLI is called _Terminal_ while Window's CLI is called _Command Prompt (CMD)_
 
-**3. Linux CLI Basics**
+## 3. Linux CLI Basics
 
-- **NAVIGATING THROUGH CLI**
+### 3.1. Navigating in the CLI
 
 ```
 pwd
@@ -108,7 +110,7 @@ clear
 
 > clear the cluttered screen
 
-- **WHAT IS SUDO?**
+##### What is sudo?
 
 `sudo {any command}`
 
@@ -117,7 +119,7 @@ clear
 To gain highest privilege access
 SU privilege is not available by default because it could be dangerous if user accidentally wreck the system with some commands.
 
-- **HOW TO RUN A FILE WITH ANY APP?**
+##### HOW TO RUN A FILE WITH ANY APP?
 
 To run a file with any installed app,
 
@@ -135,7 +137,7 @@ eg: open .py with python3 runs the program you wrote, open .py with nano edits t
 
 ![](images/run%20w%20python.PNG)
 
-- **CREATING A FILE METHOD 1 : touch**
+##### CREATING A FILE METHOD 1 : touch
 
 ```
 touch

@@ -1,6 +1,4 @@
 ---
-title: Welcome to the 2021 3DC Cloud Workshop
-has_children: false
 nav_order: 0
 ---
 
