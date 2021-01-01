@@ -12,7 +12,7 @@ nav_order: 0
 3. Click on the `Create Instance` button at the top.
 4. Once you have chosen the options you want, click on `Create` and GCP will start creating your VM. When you see a green tick next to the name of your VM, it is ready to connect to.
 
-> :exclamation: GCP Free Tier gives you one f1-micro instance in us-west1, us-central1 and us-east1 regions every month. [More.](https://cloud.google.com/free)
+> ❗ GCP Free Tier gives you one f1-micro instance in us-west1, us-central1 and us-east1 regions every month. [More.](https://cloud.google.com/free)
 
 ### Explaining this screen
 
@@ -39,5 +39,5 @@ nav_order: 0
 **Shared core** - for development purposes, you might need access to a very small machine, which is when you use a shared core machine. In these machines, multiple people share the same vCPU.
 **Standard** - You get complete ownership of the full vCPU. However, you might still be sharing the physical machine with other people.
 
-> :question: _What if I want a whole server to myself?_
+> ❓ _What if I want a whole server to myself?_
 > In this case you would want to buy a bare metal server. However these are usually very expensive and aren't as scaleable. [Amazon offers on demand bare metal EC2 servers.](https://aws.amazon.com/about-aws/whats-new/2019/02/introducing-five-new-amazon-ec2-bare-metal-instances/)

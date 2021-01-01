@@ -49,6 +49,6 @@ However, we reccomend installing a local version of Linux for ease of use (and s
 
 For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LTS running on WSL.
 
-- _Linux users_: `Ctrl + Alt + T` you already have access to a Linux terminal :stuck_out_tongue:
+- _Linux users_: `Ctrl + Alt + T` you already have access to a Linux terminal 😛
 - _Windows users_: I personally reccommend installing [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) (follow manual steps). Alternatively, if you want a desktop interface, you can use [Virtual Box](https://www.virtualbox.org/)
 - _macOS users_: Use [Parallels](https://www.parallels.com/blogs/linux-on-mac/) or [Virtual Box](https://www.virtualbox.org/). Alternatively you can try setting up QEMU.

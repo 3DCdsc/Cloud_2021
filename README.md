@@ -10,7 +10,7 @@ nav_order: 0
 > Time: 3.00 - 6.00 pm
 > Location: Google Meet (link will be updated closer to the event date)
 
-> :information_source: The workshop we will be covering how to achieve the learning objectives on Windows. While most of the content is the same across all platforms, there are a few differences in tools and procedures for some aspects.
+> ℹ The workshop we will be covering how to achieve the learning objectives on Windows. While most of the content is the same across all platforms, there are a few differences in tools and procedures for some aspects.
 
 ## Lesson Materials
 
