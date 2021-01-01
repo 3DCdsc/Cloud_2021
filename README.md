@@ -145,7 +145,29 @@ To gain highest privilege access
 SU privilege is not available by default because it could be dangerous if user accidentally wreck the system with some commands.
 
 
-- **CREATING A FILE METHOD 1 : touch **
+- **HOW TO RUN A FILE WITH ANY APP?**
+
+To run a file with any installed app, 
+
+```
+{name of the app} {name of the file}
+```
+
+eg: open .py with python3 runs the program you wrote, open .py with nano edits the code of your program
+
+
+
+```nano helloworld.py``` edits the code of the program
+
+![](https://github.com/3DCdsc/Cloud_2021/blob/master/run%20w%20nano.PNG)
+
+
+```python3 helloworld.py``` runs the program named helloworld with python
+
+![](https://github.com/3DCdsc/Cloud_2021/blob/master/run%20w%20python.PNG)
+
+
+- **CREATING A FILE METHOD 1 : touch**
 
 ```
 touch
@@ -169,5 +191,42 @@ _Write Out (Ctrl + O)_
 to save the file under any file extension such as .css, .html, .js or .py etc
 
 
-- **INSTALLING PACKAGES **
+- **INSTALLING PACKAGES(APPS) FROM OFFICIAL REPOSITORY**
+***Note: Remember to use sudo***
 
+In windows we install softwares using installers, generally with the .exe file extension. In Linux, the installers are called packages. The packages in Linux are mostly stored in a repository. If it is not available in the official repository, users need to download the package file and install it manually.
+
+```
+apt-cache search {name of the program}
+```
+searching something in the repository
+
+```
+apt-get install {name of the program}
+```
+installing apps that are in the official repositories
+
+```
+apt-get remove {name of the program}
+```
+uninstalling
+
+- **HOW ABOUT INSTALLING SMTH THAT’S NOT IN THE OFFICIAL REPO?**
+
+Step 1: Web browser download the package
+Step 2: Locate the package and run it with ```sudo apt-get -i {name of the package.deb}```
+
+- **UPDATING THE APPS**
+
+```
+apt-get upgrade
+```
+
+Upgrades the packages in your computer to the latest versions
+
+
+```
+apt-get update
+```
+
+Update the installed apps to the latest version from the upgraded packages
