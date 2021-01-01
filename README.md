@@ -135,16 +135,14 @@ clear
 > clear the cluttered screen
 
 
-- **WHAT IS SUDO? **
+- **WHAT IS SUDO?**
 
-```sudo {any command}
+```sudo {any command}```
 
 > super user do
 
 To gain highest privilege access
-SU privilege is not available by default bcoz it might be dangerous if u accidentally wreck the system with some commands.
-
-
+SU privilege is not available by default because it could be dangerous if user accidentally wreck the system with some commands.
 
 
 - **CREATING A FILE METHOD 1 : touch **
@@ -156,6 +154,7 @@ touch
 > creating multiple files of any type
 
 1.	```touch file1.txt file2.py file3.jar file4.css file5.html```
+
 
 - **CREATING A FILE METHOD 2 : Creating a file with text editor, then save**
 
