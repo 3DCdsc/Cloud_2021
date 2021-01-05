@@ -119,7 +119,7 @@ clear
 To gain highest privilege access
 SU privilege is not available by default because it could be dangerous if user accidentally wreck the system with some commands.
 
-#### 3.3 HOW TO RUN A FILE WITH ANY APP?
+#### 3.3 How to run a file with any app?
 
 To run a file with any installed app,
 
@@ -137,7 +137,7 @@ eg: open .py with python3 runs the program you wrote, open .py with nano edits t
 
 ![](images/run%20w%20python.PNG)
 
-#### 3.4.a CREATING A FILE METHOD 1 : touch
+#### 3.4.a Creating a file method 1 : touch
 
 ```
 touch
@@ -147,7 +147,7 @@ touch
 
 1. `touch file1.txt file2.py file3.jar file4.css file5.html`
 
-#### 3.4.b CREATING A FILE METHOD 2 : Creating a file with text editor, then save
+#### 3.4.b Creating a file method 2 : Creating a file with text editor, then save
 
 > **_nano_** is the default text editor in Linux.
 
@@ -159,7 +159,7 @@ _Write Out (Ctrl + O)_
 
 to save the file under any file extension such as .css, .html, .js or .py etc
 
-#### 3.5 INSTALLING PACKAGES (APPS) FROM OFFICIAL REPOSITORY
+#### 3.5 Installing packages (Apps) from official repository
   **_Note: Remember to use sudo_**
 
 In windows we install softwares using installers, generally with the .exe file extension. In Linux, the installers are called packages. The packages in Linux are mostly stored in a repository. If it is not available in the official repository, users need to download the package file and install it manually.
@@ -182,11 +182,11 @@ apt-get remove {name of the program}
 
 uninstalling
 
-#### 3.6 HOW ABOUT INSTALLING SMTH THAT’S NOT IN THE OFFICIAL REPO?
+#### 3.6 How about installing something that is not in the official repo?
 
 Step 1: Web browser download the package
 Step 2: Locate the package and run it with `sudo apt-get -i {name of the package.deb}`
-#### 3.7 UPDATING THE APPS
+#### 3.7 Updating the apps
 
 ```
 apt-get upgrade
