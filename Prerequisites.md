@@ -56,3 +56,7 @@ For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LT
 #### 4.c. `virtualenv`
 
 Most Python web deployments, and all of the good ones require the app to run in a virtual environment (for various reasons). You can go through the documentation [here](https://docs.python.org/3/library/venv.html).
+
+### 5. (required for TLS) Get a (free) domain
+
+### 6. How IP addresses and DNS work
