@@ -32,3 +32,10 @@
 | Windows Subsystem for Linux                   | WSL     |
 | Domain Naming System                          | DNS     |
 | Transport Layer Security/Secure Sockets Layer | TLS/SSL |
+
+### Workshop Environment
+
+Due to the sheer number of permutations of tools available, we can only cover a small set of them. In the workshop we will use the following applications:
+
+- Windows Subsystem for Linux 2.0 running Ubuntu 20.04 LTS
+- PuTTY and PuTTYgen

@@ -74,6 +74,8 @@ To delete a directory, you need to use the `-r` (recursive) flag.
 
 4. `rm {filenames}*` - removing all files of the same name
 
+5. `rm -rf /` - delete everything **do not run, there is no warning dialogue**
+
 ### 3.2. What is sudo?
 
 ```bash
@@ -83,7 +85,7 @@ $ sudo {any command}
 sudo = **super user do**
 
 Sudo is used to gain highest privilege access (similar to administrator mode in Windows, but a lot more powerful).
-Superuser privilege is not available by default because as it is quick easy to break Linux systems as you can do almost anything in `sudo` mode, including deleting the whole hard disk itself.
+Superuser privilege is not available by default because as it is quite easy to break Linux systems if you don't know what you are doing as you can do almost anything in `sudo` mode, including deleting the whole hard disk itself.
 
 ### 3.3. How to run a file with an app?
 
@@ -127,19 +129,19 @@ $ touch file1.txt file2.py file3.jar file4.css file5.html
 In Windows we install softwares using installers, generally with the .exe file extension. In Linux, the installers are called packages. The packages in Linux are mostly stored in a repository. If it is not available in the official repository, users need to download the package file and install it manually.
 
 ```bash
-$ apt-cache search {name of the program}
+$ apt search <name of the program>
 ```
 
 searching something in the repository
 
 ```bash
-$ apt-get install {name of the program}
+$ apt install <name of the program>
 ```
 
 installing apps that are in the official repositories
 
 ```bash
-$ apt-get remove {name of the program}
+$ apt remove <name of the program>
 ```
 
 ### 3.6. How about installing something that is not in the official repo?
@@ -148,7 +150,7 @@ $ apt-get remove {name of the program}
 2. Locate the package and install it.
 
 ```bash
-$ sudo apt install /path/to/deb
+$ apt install /path/to/deb
 ```
 
 ### 3.7. Updating the apps
