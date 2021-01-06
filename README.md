@@ -28,7 +28,7 @@
 | Google Cloud Platform | GCP                                           |
 | Google Compute Engine | GCE                                           |
 | Google App Engine     | GAE                                           |
-| VM                    | Virtual Machine                               |
-| WSL                   | Windows Subsystem for Linux                   |
-| DNS                   | Domain Naming System                          |
-| TLS/SSL               | Transport Layer Security/Secure Sockets Layer |
+| Virtual Machine       | VM                                            |
+| Windows Subsystem for Linux                        | WSL              |
+| Domain Naming System                               | DNS              |
+| Transport Layer Security/Secure Sockets Layer      | TLS/SSL          |
