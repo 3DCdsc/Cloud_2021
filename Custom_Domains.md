@@ -20,14 +20,15 @@ Doing this is actually quite easy. For illustration purposes, I will be using na
 
 2. Go to `Manage DNS records`.
 3. Add a new record with the following information
-   | Type | Host | Answer | TTL |
-   |------|------|-----------------|----------|
-   | A | @ | `<EXTERNAL IP>` | Anything |
 
-   If you want the website to be under a subdomain (e.g. domains.google.com), you can name the subdomain under host. A typical DNS configuration will look something like this.
-   ![](images/dns.png)
+| Type | Host | Answer          | TTL      |
+| ---- | ---- | --------------- | -------- |
+| A    | @    | `<EXTERNAL IP>` | Anything |
 
-   This will make your website available as both `http://<domain>` and `http://www.<domain>` (useful due to different preferences by different browsers).
+If you want the website to be under a subdomain (e.g. domains.google.com), you can name the subdomain under host. A typical DNS configuration will look something like this.
+![](images/dns.png)
+
+This will make your website available as both `http://<domain>` and `http://www.<domain>` (useful due to different preferences by different browsers).
 
 4. Once you add the record, wait a while. DNS propogation usually takes a while. _A lower TTL sometimes helps with faster propogation_ (but you should not make the TTL obscenely low). You can check if the DNS records have been updated by running `dig <URL>`.
 
