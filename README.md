@@ -23,12 +23,12 @@
 
 ### Useful Acronyms
 
-| Name                  | Acroynm                                       |
-| --------------------- | --------------------------------------------- |
-| Google Cloud Platform | GCP                                           |
-| Google Compute Engine | GCE                                           |
-| Google App Engine     | GAE                                           |
-| Virtual Machine       | VM                                            |
-| Windows Subsystem for Linux                        | WSL              |
-| Domain Naming System                               | DNS              |
-| Transport Layer Security/Secure Sockets Layer      | TLS/SSL          |
+| Name                                          | Acroynm |
+| --------------------------------------------- | ------- |
+| Google Cloud Platform                         | GCP     |
+| Google Compute Engine                         | GCE     |
+| Google App Engine                             | GAE     |
+| Virtual Machine                               | VM      |
+| Windows Subsystem for Linux                   | WSL     |
+| Domain Naming System                          | DNS     |
+| Transport Layer Security/Secure Sockets Layer | TLS/SSL |

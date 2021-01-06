@@ -29,19 +29,18 @@ Linux's CLI is called _Terminal_ while Window's CLI is called _Command Prompt (C
 
 #### 3.1. Navigating in the CLI
 
-
-
 > print working directory
+
 ```
 pwd
 ```
 
-
-
 > change directory
+
 ```
 cd
 ```
+
 Often used with ls to show where to go
 
 1. `cd ~`
@@ -49,15 +48,11 @@ Often used with ls to show where to go
 2. `cd ..`
    to go back 1 level
 
-
 > list
+
 ```
 ls
 ```
-
- 
-
-
 
 List all available directories/files
 
@@ -67,12 +62,12 @@ List all available directories/files
 2. `ls {dir}`
    to list a particular directory without changing your current working directory
 
-
 > make new directory
 
 `mkdir `
 
 > remove
+
 ```
 rm
 ```
@@ -165,7 +160,8 @@ _Write Out (Ctrl + O)_
 to save the file under any file extension such as .css, .html, .js or .py etc
 
 #### 3.5 Installing packages (Apps) from official repository
-  **_Note: Remember to use sudo_**
+
+**_Note: Remember to use sudo_**
 
 In windows we install softwares using installers, generally with the .exe file extension. In Linux, the installers are called packages. The packages in Linux are mostly stored in a repository. If it is not available in the official repository, users need to download the package file and install it manually.
 
@@ -191,6 +187,7 @@ uninstalling
 
 Step 1: Web browser download the package
 Step 2: Locate the package and run it with `sudo apt-get -i {name of the package.deb}`
+
 #### 3.7 Updating the apps
 
 ```
@@ -203,7 +200,8 @@ Updates the list of available packages and their versions, but it does not insta
 apt-get upgrade
 ```
 
- Installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
+Installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
 
-***You should first run `update` then `upgrade`***
+**_You should first run `update` then `upgrade`_**
 
+#### [Next](GCE_Intro.md)

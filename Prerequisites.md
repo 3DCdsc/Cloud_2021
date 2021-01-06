@@ -53,25 +53,26 @@ For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LT
 - _Windows users_: I personally reccommend installing [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) (follow manual steps). Alternatively, if you want a desktop interface, you can use [Virtual Box](https://www.virtualbox.org/)
 - _macOS users_: Use [Parallels](https://www.parallels.com/blogs/linux-on-mac/) or [Virtual Box](https://www.virtualbox.org/). Alternatively you can try setting up QEMU.
 
-#### 4.c. `virtualenv`
+#### 4.c. virtualenv
 
 Most Python web deployments, and all of the good ones require the app to run in a virtual environment (for various reasons). You can go through the documentation [here](https://docs.python.org/3/library/venv.html).
 
-### 5. Get a free domain (required for TLS) 
-Transport Layer Security (TLS) encrypts internet traffic of all types, making secure internet communication. 
+### 5. Get a free domain (required for TLS)
 
-#### Here is a list of some free domains
+Transport Layer Security (TLS) encrypts internet traffic of all types, making internet communication secure. Since you cannot encrypt IP addresses (it doesn't make any sense when you think about it), for this aspect, you will need a domain of your own.
 
-name.com
+However, you do not need to spend money to get a domain. Here are a few places you can get a free one:
 
-namecheap.com (included in GitHub Student Pack)
-
-free.tk
-
-freenom.com
+- name.com (included in GitHub Student Pack, **recommended**)
+- namecheap.com (included in GitHub Student Pack)
+- freenom.com (`.tk` TLD, website is quite broken but works on a clean Chromium browser)
 
 ### 6. How IP addresses and DNS work
 
 The Domain Name System (DNS) is one of the foundations of the internet. In short, DNS is a directory of names that match with numbers. The numbers, in this case are IP addresses, which computers use to communicate with each other. Most descriptions of DNS use the analogy of a phone book.
 
-Please refer to https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/the-internet-ip-addresses-and-dns 
+DNS is sort of a middle ground that is used to take the request from the domain and pass it on to the correct server <sup>_somewhat oversimplification_</sup>.
+
+**[Here is a nice video explaining DNS and Nameservers.](https://www.youtube.com/watch?v=uOfonONtIuk)**
+
+#### [Next](Intro_to_Linux.md)

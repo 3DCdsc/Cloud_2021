@@ -117,3 +117,11 @@ Check the status of the service by running `sudo systemctl status flask`. If eve
 where the service is active and running!
 
 At this point, even though everything is running properly, the website will not be publically accessible as it is still "trapped" within the UNIX socket. To expose the UNIX socket, we will use **nginx** (pronounced engine-x, believe me I called it en-jinks for a whole year without knowing).
+
+### Clean up
+
+Since we do not need the 5000 port to be open anymore, we should close it as a precautionary measure. You can do this by (in recommended order):
+
+- remove the network tag
+- change disable the firewall rule
+- delete the firewall rule
