@@ -7,7 +7,7 @@ nav_order: 1
 
 # Connecting to your instance
 
-### :exclamation: We will only cover connecting to GCE using PuTTY
+### ❗ We will only cover connecting to GCE using PuTTY
 
 #### Why use PuTTY and private keys and all that?
 

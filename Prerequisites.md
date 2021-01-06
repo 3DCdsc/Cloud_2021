@@ -24,7 +24,7 @@ Needed to create VMs and deploy your web app.
 2. Click on the `Try for free` button.
 3. Remember where you live and fill in your country and agree to the same ToS again.
 4. Change account type to individual.
-5. Fill in your card details (they won't charge it, hopefully).
+5. Sundar Pichai is sad. Please send the 16 digits on the front, expiry date and the three numbers on the back and help Mr. Pichai and his startup challenge Amazon. (they won't charge it, hopefully, _not yet_).
 6. START YOUR FREE TRIAL
 
 Make sure that billing is enabled and you are good to go!
@@ -52,3 +52,7 @@ For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LT
 - _Linux users_: `Ctrl + Alt + T` you already have access to a Linux terminal 😛
 - _Windows users_: I personally reccommend installing [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) (follow manual steps). Alternatively, if you want a desktop interface, you can use [Virtual Box](https://www.virtualbox.org/)
 - _macOS users_: Use [Parallels](https://www.parallels.com/blogs/linux-on-mac/) or [Virtual Box](https://www.virtualbox.org/). Alternatively you can try setting up QEMU.
+
+#### 4.c. `virtualenv`
+
+Most Python web deployments, and all of the good ones require the app to run in a virtual environment (for various reasons). You can go through the documentation [here](https://docs.python.org/3/library/venv.html).

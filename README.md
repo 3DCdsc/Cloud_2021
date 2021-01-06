@@ -1,7 +1,3 @@
----
-nav_order: 0
----
-
 # Welcome to the 2021 3DC Cloud Workshop
 
 ## Session info
@@ -18,6 +14,8 @@ nav_order: 0
 2. Google Compute Engine and how to host Python web apps on GCE
 3. Google App Engine and auto deploying from Github
 
+[By the end of the workshop, we hope that you will be able to lose all your savings to a massive GCP bill that you have no way of paying.](https://www.theregister.com/2020/12/10/google_cloud_over_run/) <sup>jk, [not really](https://news.ycombinator.com/item?id=19610658) <sup><sup>don't worry i won't let it happen :)</sup></sup></sup>
+
 ### Instructors
 
 - Shoham Chakraborty
@@ -25,8 +23,12 @@ nav_order: 0
 
 ### Useful Acronyms
 
-| Name                  | Acroynm |
-| --------------------- | ------- |
-| Google Cloud Platform | GCP     |
-| Google Compute Engine | GCE     |
-| Google App Engine     | GAE     |
+| Name                  | Acroynm                                       |
+| --------------------- | --------------------------------------------- |
+| Google Cloud Platform | GCP                                           |
+| Google Compute Engine | GCE                                           |
+| Google App Engine     | GAE                                           |
+| VM                    | Virtual Machine                               |
+| WSL                   | Windows Subsystem for Linux                   |
+| DNS                   | Domain Naming System                          |
+| TLS/SSL               | Transport Layer Security/Secure Sockets Layer |
