@@ -57,6 +57,21 @@ For the purposes of the workshop, we will be covering how to use Ubuntu 20.04 LT
 
 Most Python web deployments, and all of the good ones require the app to run in a virtual environment (for various reasons). You can go through the documentation [here](https://docs.python.org/3/library/venv.html).
 
-### 5. (required for TLS) Get a (free) domain
+### 5. Get a free domain (required for TLS) 
+Transport Layer Security (TLS) encrypts internet traffic of all types, making secure internet communication. 
+
+#### Here are a list of some free domains
+
+name.com
+
+namecheap.com (included in GitHub Student Pack)
+
+free.tk
+
+freenom.com
 
 ### 6. How IP addresses and DNS work
+
+The Domain Name System (DNS) is one of the foundations of the internet. In short, DNS is a directory of names that match with numbers. The numbers, in this case are IP addresses, which computers use to communicate with each other. Most descriptions of DNS use the analogy of a phone book.
+
+Please refer to https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/the-internet-ip-addresses-and-dns 
