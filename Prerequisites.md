@@ -60,7 +60,7 @@ Most Python web deployments, and all of the good ones require the app to run in 
 ### 5. Get a free domain (required for TLS) 
 Transport Layer Security (TLS) encrypts internet traffic of all types, making secure internet communication. 
 
-#### Here are a list of some free domains
+#### Here is a list of some free domains
 
 name.com
 
