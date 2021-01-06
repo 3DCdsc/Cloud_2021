@@ -22,3 +22,5 @@ Security. You usually don't want random internet strangers taking control over y
 5. Open PuTTY, paste the external IP in the `Host name`. SSH port used in GCP (and in general) is 22. On the left sidebar, under connection, expand SSH, then click on Auth. At the bottom click on browse and select your private key.
 6. Go back to the session screen. You might want to save the configuration. To do this type in a name under Saved sessions and click the save button.
 7. Press `Open`. If there is a prompt, say yes. You should get a new window asking for a username. Put in the username from the public key, and you should be able to access the VM!
+
+#### [Next](Flask.md)

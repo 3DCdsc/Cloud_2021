@@ -41,3 +41,5 @@ nav_order: 0
 
 > ❓ _What if I want a whole server to myself?_
 > In this case you would want to buy a bare metal server. However these are usually very expensive and aren't as scaleable. [Amazon offers on demand bare metal EC2 servers.](https://aws.amazon.com/about-aws/whats-new/2019/02/introducing-five-new-amazon-ec2-bare-metal-instances/)
+
+#### [Next](Connecting.md)

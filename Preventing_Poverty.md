@@ -1,6 +1,6 @@
 ---
 title: Preventing Poverty
-has_children: true
+has_children: false
 nav_order: 4
 ---
 

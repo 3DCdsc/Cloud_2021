@@ -71,3 +71,5 @@ Now that our server is all setup, all we need to do is to connect it to our doma
 
 `less` is used to check the contents of the file, but it is different from `cat` as it allows you to scroll through the file instead of dumping everything on the terminal (which makes it better for larger files).
 To exit from a `less` dialogue, press `q`.
+
+#### [Next](Custom_Domains.md)
