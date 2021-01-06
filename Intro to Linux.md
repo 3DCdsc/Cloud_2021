@@ -29,18 +29,19 @@ Linux's CLI is called _Terminal_ while Window's CLI is called _Command Prompt (C
 
 #### 3.1. Navigating in the CLI
 
+
+
+> print working directory
 ```
 pwd
 ```
 
-> print working directory
 
+
+> change directory
 ```
 cd
 ```
-
-> change directory
-
 Often used with ls to show where to go
 
 1. `cd ~`
@@ -48,11 +49,15 @@ Often used with ls to show where to go
 2. `cd ..`
    to go back 1 level
 
+
+> list
 ```
 ls
 ```
 
-> list
+ 
+
+
 
 List all available directories/files
 
@@ -62,15 +67,15 @@ List all available directories/files
 2. `ls {dir}`
    to list a particular directory without changing your current working directory
 
-`mkdir `
 
 > make new directory
 
+`mkdir `
+
+> remove
 ```
 rm
 ```
-
-> remove
 
 To delete something, if deleting a dir need -rf
 
@@ -189,13 +194,15 @@ Step 2: Locate the package and run it with `sudo apt-get -i {name of the package
 #### 3.7 Updating the apps
 
 ```
-apt-get upgrade
-```
-
-Upgrades the packages in your computer to the latest versions
-
-```
 apt-get update
 ```
 
-Update the installed apps to the latest version from the upgraded packages
+Updates the list of available packages and their versions, but it does not install or upgrade any packages
+
+```
+apt-get upgrade
+```
+
+ Installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
+
+***You should first run `update` then `upgrade`***
