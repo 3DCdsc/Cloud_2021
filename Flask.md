@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: Deploying Python - Werkzeug and gunicorn
 parent: Google Compute Engine
 has_children: false
 nav_order: 2
