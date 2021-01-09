@@ -2,9 +2,11 @@
 
 ## Session info
 
-> Date: 13 January 2021
-> Time: 3.00 - 6.00 pm
-> Location: [Twitch](https://www.twitch.tv/3dcdsc)
+#### Date: 13 January 2021
+
+#### Time: 3.00 - 6.00 pm
+
+#### Location: [Twitch](https://www.twitch.tv/3dcdsc)
 
 > ℹ The workshop we will be covering how to achieve the learning objectives on Windows. While most of the content is the same across all platforms, there are a few differences in tools and procedures for some aspects.
 
