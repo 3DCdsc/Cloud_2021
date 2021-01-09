@@ -6,7 +6,8 @@ nav_order: 4
 
 # How to prevent GCE from making you poor
 
-Google Compute Engine is _less_ likely to make you poor compared to the more "autoscaling on-demand" services such as Cloud Functions and App Engine. [Why?](#gae-and-cloud-functions)
+Google Compute Engine is _less_ likely to make you poor compared to the more "autoscaling on-demand" services such as Cloud Functions and App Engine.
+
 Since the auto scaling capability is quite less compared to Compute Engine, it is harder to get a surprisingly larger bill than expected, conversely you will never see a bill smaller than expected.
 
 A few things you can do to help reduce costs:
